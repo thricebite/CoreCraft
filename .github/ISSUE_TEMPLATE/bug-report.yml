@@ -12,7 +12,7 @@ body:
     attributes:
       label: Modpack Version
       description: What version of CoreCraft are you using?
-      placeholder: 2.0
+      placeholder: "2.0"
     validations:
       required: true
   - type: textarea
@@ -35,6 +35,6 @@ body:
     attributes:
       label: Logs
       description: Please upload your logs to mclo.gs
-      placeholder: https://mclo.gs/
+      placeholder: "https://mclo.gs/"
     validations:
       required: true
