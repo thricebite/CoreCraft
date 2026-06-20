@@ -1,6 +1,6 @@
-name: "Feature Request"
+name: "Suggestion"
 description: "Suggest an idea for CoreCraft"
-title: "[Feature] "
+title: "[Suggestion] "
 labels: enhancement
 assignees:
   - thricebite
