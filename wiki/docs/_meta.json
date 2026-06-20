@@ -2,5 +2,13 @@
     "installation.mdx": {
         "name": "Installation",
         "icon": "Download"
+    },
+    "ram.mdx": {
+        "name": "Allocating RAM",
+        "icon": "MemoryStick"
+    },
+    "recommendations.mdx": {
+        "name": "Recommendations",
+        "icon": "SquarePen"
     }
 }
