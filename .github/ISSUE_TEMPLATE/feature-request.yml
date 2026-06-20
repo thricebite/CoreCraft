@@ -1,0 +1,21 @@
+name: "Feature Request"
+description: "Suggest an idea for CoreCraft"
+title: "[Feature] "
+labels: enhancement
+assignees:
+  - thricebite
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill this suggestion form!
+  - type: input
+    attributes:
+      label: Modpack Version
+      description: What version of CoreCraft are you using?
+      placeholder: "2.0"
+  - type: textarea
+    attributes:
+      label: Suggestion
+      placeholder: "I want mod X to be added to CoreCraft because it adds cool RPG Classes!"
+    validations:
+      required: true
