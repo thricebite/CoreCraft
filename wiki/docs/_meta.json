@@ -1,3 +1,6 @@
 {
-  "installation.mdx": ""
+    "installation.mdx": {
+        "name": "Installation",
+        "icon": "Download"
+    }
 }
