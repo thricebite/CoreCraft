@@ -1,0 +1,38 @@
+name: Bug Report
+description: Report modpack bugs
+title: "[Bug] "
+labels: bug
+assignees: thricebite
+- type: markdown
+  attributes:
+    value: Thanks for taking the time to fill this issue report!
+- type: input
+  attributes:
+    label: Modpack Version
+    description: What version of CoreCraft are you using?
+    placeholder: 2.0
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Bug
+    description: Please explain the bug and include all the steps to reproduce the bug
+    placeholder: >-
+      Bug: Rune Crafting Altar UI is replaced with Visual Workbench UI
+
+      Steps to reproduce: 
+
+      1. Interact with the Rune Crafting Altar
+
+      2. Cheaper rune crafting does not work
+
+      Expected: Rune Crafting Altar should have the Rune Crafting UI and mechanics
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Logs
+    description: Please upload your logs to mclo.gs
+    placeholder: https://mclo.gs/
+  validations:
+    required: true
