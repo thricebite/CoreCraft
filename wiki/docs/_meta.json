@@ -7,6 +7,10 @@
         "name": "Allocating RAM",
         "icon": "MemoryStick"
     },
+    "multiplayer.mdx": {
+        "name": "Multiplayer",
+        "icon": "Users"
+    },
     "recommendations.mdx": {
         "name": "Recommendations",
         "icon": "SquarePen"
