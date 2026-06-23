@@ -1,0 +1,41 @@
+# Multiplayer
+
+You will need to obtain the server pack if you are hosting a CoreCraft Minecraft server. All clients will also need to install CoreCraft from Modrinth. Some hosting services such as [Modrinth Hosting](https://modrinth.com/hosting) seamlessly integrates modpack installation to the server.
+
+We also recommend making a [Modrinth server project](https://modrinth.com/news/article/introducing-server-projects) so clients can automatically download the required content and receive updates from the server.
+
+### Obtaining the Server Pack
+
+You can use [mrpack4server](https://github.com/Patbox/mrpack4server) by Patbox to easily install and load ``.mrpack`` on any Minecraft server hosting. Place ``modpack-info.json`` below with the Java jar file in the directory. It is recommended for ``version_id`` to use the direct version number such as ``2.0``.
+
+```modpack-info.json
+{
+  "display_name": "CoreCraft",
+  "project_id": "corecraft",
+  "version_id": ";;release",
+  "whitelisted_domains": [],
+  "non_overwritable_paths": []
+}
+```
+
+### Setting Up the Server
+
+Here are some guides that can help you: 
+- https://minecraft.wiki/w/Tutorial:Setting_up_a_Java_Edition_server
+- https://wiki.fabricmc.net/player:tutorials:server:windows
+
+### Using e4mc Mod
+
+e4mc is a reverse tunneling reverse proxy for Minecraft. In simpler terms, it's a software that allows you to temporarily expose a local Minecraft server to the internet.
+
+As host: 
+- Open your singleplayer world
+- Open the Game Menu
+- Open to LAN
+- Copy the domain link from the chat and send it to others
+  - Example domain link: ``club-people.eu.e4mc.link``
+
+As client: 
+- Copy the domain link
+- Go to multiplayer
+- Press "Direction connection" and paste the domain link
