@@ -14,5 +14,9 @@
     "recommendations.mdx": {
         "name": "Recommendations",
         "icon": "SquarePen"
+    },
+    "troubleshooting.mdx": {
+        "name": "Troubleshooting",
+        "icon": "Wrench"
     }
 }
